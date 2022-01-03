@@ -21,6 +21,7 @@ namespace ConsoleApp5
         // retriving the data from Employees table, using SELECT
         static void GetAllEmployees(string connectionString, List<Employee> listOfEmploeeys)
         {
+            //try-catch for exceptions
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
