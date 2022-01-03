@@ -24,6 +24,7 @@ namespace ConsoleApp5
             //try-catch for exceptions
             try
             {
+                //using and cleaning of SqlConnection object
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
